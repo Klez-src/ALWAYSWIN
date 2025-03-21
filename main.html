@@ -1,39 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Site Down</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #1a1a1a;
-      color: #ffffff;
-      font-family: Arial, sans-serif;
-    }
-
-    .fade-text {
-      font-size: 24px;
-      font-weight: bold;
-      animation: fadeInOut 1s infinite;
-    }
-
-    @keyframes fadeInOut {
-      0%, 100% {
-        opacity: 0;
-      }
-      50% {
-        opacity: 1;
-      }
-    }
-  </style>
+    <title>ALWAYSWIN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hover-animate {
+            transition: transform 0.3s ease-in-out;
+        }
+        .hover-animate:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
-<body>
-  <div class="fade-text">SITE IS TEMPORARILY DOWN</div>
+<body class="bg-[#313131] text-white">
+    <div class="text-center py-10">
+        <h1 class="text-5xl font-bold">ALWAYSWIN</h1>
+        <p class="text-lg mt-2 font-bold text-[#939393]">The right way to cheat.</p>
+    </div>
+    <div class="flex flex-col md:flex-row justify-center items-center gap-6 px-4">
+        <div class="bg-[#444444] rounded-lg p-6 w-[289px] h-[433px] flex flex-col justify-between hover-animate cursor-pointer" onclick="window.location.href='https://www.amazon.com'">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">Starter Pack</h2>
+                <p class="font-bold">1 Month sub to all CS:GO cheats + 1 CS:2 cheat</p>
+                <p class="mt-2 font-bold">CS:GO cheats included: Gamesense, Fatality, Primordial, Havoc, Plaguecheat</p>
+                <p class="mt-2 font-bold">CS:2 cheats included: Compkiller</p>
+                <p class="mt-4 font-bold">Price: $2.99/m</p>
+            </div>
+            <p class="font-bold text-center mt-4 text-[#939393]">BEST DEAL!</p>
+        </div>
+        <div class="bg-[#444444] rounded-lg p-6 w-[289px] h-[433px] hover-animate cursor-pointer" onclick="window.location.href='https://www.amazon.com'">
+            <h2 class="text-2xl font-bold mb-4">HvHer Pack</h2>
+            <p class="font-bold">1 Month sub to all CS:GO cheats + 3 CS:2 cheat</p>
+            <p class="mt-2 font-bold">CS:GO cheats included: gamesense, fatality, primordial, havoc, plaguecheat</p>
+            <p class="mt-2 font-bold">CS:2 cheats included: Compkiller, Plaguecheat, Reversive</p>
+            <p class="mt-4 font-bold">Price: $4.99/m</p>
+        </div>
+        <div class="bg-[#444444] rounded-lg p-6 w-[289px] h-[433px] hover-animate cursor-pointer" onclick="window.location.href='https://www.amazon.com'">
+            <h2 class="text-2xl font-bold mb-4">Pro’s Pack</h2>
+            <p class="font-bold">1 Month sub to all CS:GO cheats + 3 CS:2 cheat</p>
+            <p class="mt-2 font-bold">CS:GO cheats included: gamesense, fatality, primordial, havoc, plaguecheat</p>
+            <p class="mt-2 font-bold">CS:2 cheats included: Compkiller, Plaguecheat, Reversive, Nixware, Fatality, All up coming cheats</p>
+            <p class="mt-4 font-bold">Price: $7.99/m</p>
+        </div>
+    </div>
+    <div class="text-center py-10">
+        <p class="text-[#939393] font-bold">In official partnership with the listn.dev project.</p>
+    </div>
 </body>
 </html>
